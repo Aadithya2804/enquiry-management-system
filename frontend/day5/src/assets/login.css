@@ -1,0 +1,67 @@
+/* login.css */
+
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  /* background: linear-gradient(to bottom right, #7b4397, #dc2430); */
+  background-image: url("https://res.cloudinary.com/dyangxstv/image/upload/v1708608462/img.jpg_gqfdbq.jpg");
+
+  
+}
+
+#box {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: aqua;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="address"] ,
+input[type="phonenumber"]{
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
